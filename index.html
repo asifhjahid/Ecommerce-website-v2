@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+
+  <!-- <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" /> -->
+
+
+  <!-- Carousel -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+  <!-- Custom StyleSheet -->
+  <link rel="stylesheet" href="./style/style.css" />
+
+  <title>E-commerce website</title>
+</head>
+
+<body>
+
+<!-- header -->
+
+<header class="header" id="header">
+  <!-- Navigation -->
+  <div class="navigation">
+    <div class="container">
+      <nav class="nav">
+        <div class="navHamburger">
+          <svg>
+            <!-- <a href="./images/nav.svg#icon-menu"></a> -->
+            <use xlink:href="./images/nav.svg#icon-menu"></use>
+          </svg>
+        </div>
+        <div class="navLogo">
+          <a href="/"class="scroll-link">
+          <img src="./images/logo/logo.png" alt="">
+          </a>
+        </div>
+        <div class="navMenu">
+          <div class="menuTop">
+             <span class="navCategory">Canvas</span>
+             <a href="#"class="closeToggle">
+              <svg>
+                <use xlink:href="./images/nav.svg#icon-cross"></use>
+              </svg>
+             </a>
+          </div>
+          <ul class="navList">
+            <li class="navItem">
+              <a href="#header" class="navLink scroll-link">Home</a>
+            </li>
+  
+            <li class="navItem">
+              <a href="#category" class="navLink scroll-link">Category</a>
+            </li>
+            <li class="navItem">
+              <a href="#news" class="navLink scroll-link">Blog</a>
+            </li>
+            <li class="navItem">
+              <a href="#contact" class="navLink scroll-link">Contact</a>
+            </li>
+          </ul>
+        </div>
+       <div class="navIcons">
+         <a href="#" class="itemIcon">
+          <svg>
+            <use xlink:href="./images/nav.svg#icon-user"></use>
+          </svg>
+         </a>
+         <a href="#" class="itemIcon">
+          <svg>
+            <use xlink:href="./images/nav.svg#icon-search"></use>
+          </svg>
+         </a>
+         <a href="#" class="itemIcon">
+          <svg>
+            <use xlink:href="./images/nav.svg#icon-shopping-basket"></use>
+          </svg>
+          <span id="cartTotal">0</span>
+         </a>
+       </div>
+      </nav>
+    </div>
+  </div>
+
+ 
+</header>
+    <!-- Glide Carousel Script -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+  <!-- Animate On Scroll -->
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="./js/script.js"></script>
+  <script src="./js/index.js"></script>
+  <script src="./js/slider.js"></script>
+
+</body>
+
+</html>
