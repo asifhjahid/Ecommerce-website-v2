@@ -875,3 +875,31 @@
 }
 
 
+/* Category Media Query */
+
+@media only screen and (max-width:999px){
+  .category__center{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+/* @media only screen and (max-width:768px){
+  .category__center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+} */
+@media only screen and (max-width:568px){
+  .category__center{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  .product__header{
+    height: 10rem;
+  }
+  .product__header img{
+    object-fit: contain;
+  }
+}
+
+
