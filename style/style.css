@@ -530,6 +530,9 @@
      padding-left: 0.5rem;
      transition: opacity .3s ease-in-out;
    }
+   .section__titles:not(:last-child){
+     margin-right: 1.5rem;
+   }
    .section__title span.dot{
      opacity: 0.6;
      padding: .6rem;
@@ -678,7 +681,7 @@
         display: flex;
         flex-direction: column;
       }
-      .section__title:not(:last-child){
+      .section__titles:not(:last-child){
         margin: 0 0 1.3rem;
       }
       .product{
@@ -770,6 +773,7 @@
 
 
   /* Latest Products Media Query */
+
   @media only screen and (max-width:999px){
     .product{
       width: 70%;
@@ -858,6 +862,16 @@
   .product__footer{
     font-size: 1.2rem;
   }
+}
+
+
+
+/* Category Section */
+
+.category__center{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 3rem 2rem;
 }
 
 
