@@ -3,7 +3,7 @@
         {
             "id":1,
             "title":"Canvas 1",
-            "image":"../images/canvas/canvas.jpg",
+            "image":"../images/canvas/canvas1.jpg",
             "price":1500,
             "category":"Canvas"
         },
@@ -45,7 +45,7 @@
         {
             "id":7,
             "title":"Banner 1",
-            "image":"../images/banner/banner1.jpg",
+            "image":"../images/banner/banner10.jpg",
             "price":1500,
             "category":"Banner"
         },
@@ -87,84 +87,84 @@
         {
             "id":13,
             "title":"Fish Jar 1",
-            "image":"../images/fish jar/fish_jar1.jpg",
+            "image":"../images/fishJar/fish_jar1.jpg",
             "price":1500,
             "category":"Fish Jar"
         },
         {
             "id":14,
             "title":"Fish Jar 2",
-            "image":"../images/fish jar/fish_jar2.jpg",
+            "image":"../images/fishJar/fish_jar2.jpg",
             "price":1500,
             "category":"Fish Jar"
         },
         {
             "id":15,
             "title":"Fish Jar 3",
-            "image":"../images/fish jar/fish_jar3.jpg",
+            "image":"../images/fishJar/fish_jar3.jpg",
             "price":1500,
             "category":"Fish Jar"
         },
         {
             "id":16,
             "title":"Fish Jar 4",
-            "image":"../images/fish jar/fish_jar4.jpg",
+            "image":"../images/fishJar/fish_jar4.jpg",
             "price":1500,
             "category":"Fish Jar"
         },
         {
             "id":17,
             "title":"Banner 5",
-            "image":"../images/fish jar/fish_jar5.jpg",
+            "image":"../images/fishJar/fish_jar5.jpg",
             "price":1500,
             "category":"Fish Jar"
         },
         {
             "id":18,
             "title":"Fish Jar 6",
-            "image":"../images/fish jar/fish_jar6.jpg",
+            "image":"../images/fishJar/fish_jar6.jpg",
             "price":1500,
             "category":"Fish Jar"
          },
          {
             "id":19,
             "title":"Glass Jar 1",
-            "image":"../images/glass jar/glass_jar1.jpg",
+            "image":"../images/glassJar/glass_jar1.jpg",
             "price":1500,
-            "category":"Canvas"
+            "category":"Glass Jar"
         },
         {
             "id":20,
             "title":"Glass Jar 2",
-            "image":"../images/glass jar/glass_jar2.jpg",
+            "image":"../images/glassJar/glass_jar2.jpg",
             "price":1500,
-            "category":"Canvas"
+            "category":"Glass Jar"
         },
         {
             "id":21,
             "title":"Glass Jar 3",
-            "image":"../images/glass jar/glass_jar3.jpg",
+            "image":"../images/glassJar/glass_jar3.jpg",
             "price":1500,
-            "category":"Canvas"
+            "category":"Glass Jar"
         },
         {
             "id":22,
             "title":"Glass Jar 4",
-            "image":"../images/glass jar/glass_jar4.jpg",
+            "image":"../images/glassJar/glass_jar4.jpg",
             "price":1500,
-            "category":"Canvas"
+            "category":"Glass Jar"
         },
         {
             "id":23,
             "title":"Glass Jar 5",
-            "image":"../images/glass jar/glass_jar5.jpg",
+            "image":"../images/glassJar/glass_jar5.jpg",
             "price":1500,
-            "category":"Canvas"
+            "category":"Glass Jar"
         },
         {
             "id":24,
             "title":"Glass Jar 6",
-            "image":"../images/glass jar/glass_jar6.jpg",
+            "image":"../images/glassJar/glass_jar6.jpg",
             "price":1500,
             "category":"Glass Jar"
         }
