@@ -21,7 +21,7 @@ if(slider1){
 
 // Latest Products Section
 
-if(slider1){
+if(slider2){
     new Glide(slider2,{
         type:"carousel",
         startAt:0,
@@ -29,7 +29,7 @@ if(slider1){
         hoverpause:true,
         perView:4,
         animationDuration:800,
-        animationTimingFunc:'cubic-bezier(.165,.840,.44,.1)',
+        animationTimingFunc:'ease-in-out',
         breakpoints:{
             1200:{
                 perView:3,

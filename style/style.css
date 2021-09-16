@@ -625,7 +625,7 @@
      height: 0;
      border-top: 3px solid var(--orange);
      border-left: 3px solid var(--orange);
-     transition: .5s;
+     transition: .5s ease-in-out;
      opacity: 0;
      z-index: 1;
    }
@@ -640,7 +640,7 @@
      border-bottom: 3px solid var(--orange);
      z-index: 1;
      opacity: 0;
-    transition: 0.5s;
+    transition: 0.5s ease-in-out;
     
     }
     .product ul a:hover::before{
@@ -733,4 +733,131 @@
         left: 26%;
       } */
     }
+
+
+
+  /* Latest Product Arrow */
+
+  .latest__products .glide__arrow,
+  .related__products .glide__arrow{
+    background-color: transparent;
+    border: 1px solid var(--primaryColor);
+    outline: none;
+    box-shadow: 0 0.25em .5em rgba(0,0,0,0);
+    top: -20%;
+    left:80%;
+  }
+  .latest__products .glide__arrow:hover,
+  .related__products .glide__arrow:hover{
+    background-color: var(--orange);
+    border: 1px solid var(--primaryColor);
+  }
+  .latest__products .glide__arrow--left,
+  .related__products .glide__arrow--left{
+    left: 75%;
+  }
+  .latest__products .glide__arrow--right,
+  .related__products .glide__arrow--right{
+    right: 5%;
+  }
+  .latest__products .glide__arrow svg,
+  .related__products .glide__arrow svg{
+    width: 1.5rem;
+    height: 1.5rem;
+    fill: var(--grey);
+  }
+
+
+
+  /* Latest Products Media Query */
+  @media only screen and (max-width:999px){
+    .product{
+      width: 70%;
+      margin: 0 auto;
+    }
+    .product__header{
+      height: 25rem;
+    }
+    .latest__products .glide__arrow,
+    .related__products .glide__arrow{
+    top: -10%;
+    left:80%;
+  }
+    .latest__products .glide__arrow--left,
+    .related__products .glide__arrow--left{
+      left: 73%;
+    }
+    .latest__products .glide__arrow--right,
+    .related__products .glide__arrow--right{
+    right: 7%;
+  }
+  }
+
+  @media only screen and (max-width:768px){
+    .latest__products .glide__arrow--left,
+    .related__products .glide__arrow--left{
+      left: 70%;
+    }
+    .latest__products .glide__arrow--right,
+    .related__products .glide__arrow--right{
+    right: 7%;
+  }
+  }
+
+  @media only screen and (max-width:568px){
+    .product__header{
+      height: 20rem;
+    }
+    /* .product__header img{
+      width: 50%;
+    } */
+    .product .product__footer h3{
+      font-size: 1.4rem;
+    }
+    .latest__products .glide__arrow,
+    .related__products .glide__arrow{
+    top: -8%;
+    left:80%;
+  }
+    .latest__products .glide__arrow--left,
+    .related__products .glide__arrow--left{
+      left: 68%;
+    }
+    .latest__products .glide__arrow--right,
+    .related__products .glide__arrow--right{
+    right: 7%;
+  }
+  .product__btn{
+    width: 100%;
+    font-size: 1rem;
+    border: 1px solid var(--black);
+    padding: 0.8rem;
+
+  }
+  .product ul{
+    top: 25%;
+    left: 50%;
+    width: 16rem;
+    height: 4rem;
+  }
+  .product ul a{
+    width: 2.7rem;
+    height: 2.7rem;
+  }
+  .rating svg{ 
+    width: 1.3rem;
+    height: 1.3rem;
+  }
+}
+
+
+@media only screen and (max-width:460px){
+  .product__header{
+    height: 12rem;
+  }
+  .product__footer{
+    font-size: 1.2rem;
+  }
+}
+
 
