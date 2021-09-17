@@ -84,6 +84,14 @@
     width: 100%;
     padding: 0 1rem;
   }
+  .fix__nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: var(--white);
+    z-index: 1200;
+  }
   .navLogo img{
     width: 70%;
     height: 12vh;
@@ -1053,11 +1061,11 @@
 .goto-top:hover{
   background-color: var(--black4);
 }
-.show-top:link,
+/* .show-top:link,
 .show-top:visited{
   visibility: visible;
   z-index: 1999;
-}
+} */
 
 @keyframes bounce {
   0%{
