@@ -1,3 +1,17 @@
+window.onscroll = function() {scrollFunction()};
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar").style.backgroundColor = "red";
+  
+  } else {
+    document.getElementById("navbar").style.top = "0";
+    document.getElementById("navbar").style.backgroundColor = "rgb(148, 214, 238)";
+  }
+}
+
+
 // const navOpen = document.querySelector('.navHamburger');
 // const navClose = document.querySelector('.closeToggle');
 // const menu = document.querySelector('.navMenu');
@@ -93,6 +107,9 @@ window.addEventListener('scroll',(e)=>{
         gotoTop.classList.remove('show-top');
     }
 })
+
+
+
 
 
 
