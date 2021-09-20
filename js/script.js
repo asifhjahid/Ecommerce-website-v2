@@ -1,13 +1,26 @@
+
+
+
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
   if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    document.getElementById("navbar").style.top = "0";
-    document.getElementById("navbar").style.backgroundColor = "red";
-  
+    let navBar = document.getElementById("navbar");
+    let navItem = document.querySelectorAll(".nav-link");
+    for(let i =0; i<navItem.length ; i++){
+        let item = navItem[i];
+        item.style.color = '#fff'
+    }
+    navBar.style.top = '0';
+    navBar.style.backgroundColor = '#2ecc71'; 
   } else {
     document.getElementById("navbar").style.top = "0";
-    document.getElementById("navbar").style.backgroundColor = "rgb(148, 214, 238)";
+    document.getElementById("navbar").style.backgroundColor = "#fff";
+    let navItem = document.querySelectorAll(".nav-link");
+    for(let i =0; i<navItem.length ; i++){
+        let item = navItem[i];
+        item.style.color = '#000'
+    }
   }
 }
 

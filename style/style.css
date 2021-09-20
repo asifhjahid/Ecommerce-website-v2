@@ -28,6 +28,7 @@
 html {
   box-sizing: border-box;
   font-size: 62.5%;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -37,11 +38,6 @@ body {
   color: var(--black);
   font-weight: 400;
   font-style: normal;
-}
-
-a {
-  text-decoration: none;
-  color: var(--black);
 }
 
 li {
@@ -61,7 +57,7 @@ li {
 }
 
 
-  * {
+  /* * {
     margin: 0;
     padding: 0;
     box-sizing: inherit;
@@ -70,8 +66,8 @@ li {
   html {
     font-size: 62.5%;
     box-sizing: border-box;
-    scroll-behavior: smooth;
-  }
+    
+  } */
   
   /* body,
   input {
@@ -126,8 +122,8 @@ li {
   */
   .navigation {
     height: 8rem;
-    line-height: 6rem;
-    background-color: rgb(148, 214, 238);
+    /* line-height: 6rem; */
+    /* background-color: rgb(148, 214, 238); */
     position: fixed;
     z-index: 1;
     width: 100%;
@@ -141,25 +137,32 @@ li {
       width: 95px;
       height: 67px;
   }
-  .nav-center {
+  .navigation .nav-center {
     justify-content: space-between;
   }
   
-  .nav-list .icons {
+ .navigation .nav-center .nav-list .icons {
     display: none;
   }
-  
+
   .nav-center .nav-item:not(:last-child) {
     margin-right: 0.5rem;
   }
+  .nav-center .nav-list .nav-item{
   
+  }
   .nav-center .nav-link {
-    font-size: 1.8rem;
-    padding: 1rem;
+    font-size: 2rem;
+    padding: 8px 12px;
+    font-weight: 500;
+    border-radius: 10px;
+    transition: all .3s ease-in-out;
   }
   
   .nav-center .nav-link:hover {
-    color: var(--green);
+    color: #fff !important;
+    background-color: rgba(1, 119, 1,.9);
+    transform: scale(1.1);
   }
   
   .nav-center .hamburger {
