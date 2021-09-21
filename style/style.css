@@ -1062,6 +1062,12 @@ li {
 
 
 
+
+
+
+
+
+
  /* Latest Product and Category Section */
 
 
@@ -1217,7 +1223,11 @@ li {
 
     /* Media Query */
 
-    @media only screen and (max-width:568px){
+
+
+
+
+    /* @media only screen and (max-width:568px){
       .title__container{
         display: flex;
         flex-direction: column;
@@ -1277,7 +1287,7 @@ li {
         top: 24%;
         left: 26%;
       } */
-    }
+    
 
 
 
@@ -1285,31 +1295,35 @@ li {
 
   .latest__products .glide__arrow,
   .related__products .glide__arrow{
-    background-color: transparent;
-    border: 1px solid var(--primaryColor);
+    /* background-color: var(--secondaryColor); */
+    background-color: rgb(39, 174, 96);
+    /* border: 1px solid#2ecc71; */
     outline: none;
-    box-shadow: 0 0.25em .5em rgba(0,0,0,0);
-    top: -20%;
+    /* box-shadow: 0 0.25em .5em rgba(0,0,0,0); */
+
+    top: -10%;
     left:80%;
   }
   .latest__products .glide__arrow:hover,
   .related__products .glide__arrow:hover{
-    background-color: var(--orange);
-    border: 1px solid var(--primaryColor);
+    background-color:rgb(22, 105, 56);
+    box-shadow: 2px 2px 6px rgb(247, 67, 67),
+                -2px -2px 6px rgb(247, 67, 67);
+    
   }
   .latest__products .glide__arrow--left,
   .related__products .glide__arrow--left{
-    left: 75%;
+    left: 74%;
   }
   .latest__products .glide__arrow--right,
   .related__products .glide__arrow--right{
-    right: 5%;
+    right: 1%;
   }
   .latest__products .glide__arrow svg,
   .related__products .glide__arrow svg{
-    width: 1.5rem;
+    width: 2rem;
     height: 1.5rem;
-    fill: var(--grey);
+    fill: var(--white);
   }
 
 
@@ -1317,11 +1331,11 @@ li {
   /* Latest Products Media Query */
 
   @media only screen and (max-width:999px){
-    .product{
+    /* .product{
       width: 70%;
       margin: 0 auto;
       height: 35vh;
-    }
+    } */
     .product__header{
       height: 25rem;
     }
@@ -1347,7 +1361,7 @@ li {
     }
     .latest__products .glide__arrow--right,
     .related__products .glide__arrow--right{
-    right: 7%;
+    right: 5%;
   }
   }
 
@@ -1368,7 +1382,7 @@ li {
   }
     .latest__products .glide__arrow--left,
     .related__products .glide__arrow--left{
-      left: 68%;
+      left: 66%;
     }
     .latest__products .glide__arrow--right,
     .related__products .glide__arrow--right{
@@ -1396,9 +1410,29 @@ li {
     height: 1.3rem;
   }
 }
+@media only screen and (max-width:420px){
+  .latest__products .glide__arrow--left,
+  .related__products .glide__arrow--left{
+    left: 63%;
+  }
+  .latest__products .glide__arrow--right,
+  .related__products .glide__arrow--right{
+  right: 7%;
+}
+}
 
+@media only screen and (max-width:360px){
+  .latest__products .glide__arrow--left,
+  .related__products .glide__arrow--left{
+    left: 55%;
+  }
+  .latest__products .glide__arrow--right,
+  .related__products .glide__arrow--right{
+  right: 7%;
+}
+}
 
-@media only screen and (max-width:460px){
+/* @media only screen and (max-width:460px){
   .product__header{
     height: 12rem;
   }
@@ -1408,7 +1442,7 @@ li {
   .porduct{
     height: 25vh;
   }
-}
+} */
 
 
 
@@ -1421,21 +1455,41 @@ li {
   .category__center{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+  .product{
+    width: 100%;
+    height: 38vh;
   }
 }
-/* @media only screen and (max-width:768px){
+@media only screen and (max-width:768px){
   .category__center{
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
   }
-} */
-@media only screen and (max-width:568px){
+  .title__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   background-color: var(--primaryColor);
+  }
+}
+.section__title .primary__title{
+  margin-bottom:8px ;
+}
+.section__title span.dot { 
+  margin-top: -8px;
+}
+/* @media only screen and (max-width:568px){
   .category__center{
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
   .product{
     height: 32vh;
+    
   }
   .product__header{
     height: 10rem;
@@ -1443,7 +1497,7 @@ li {
   .product__header img{
     object-fit: contain;
   }
-}
+} */
 
 
 
@@ -2002,7 +2056,7 @@ font-weight: 700;
   
 }
 
-.footerLast p{
+.footerLast p {
   color: #fff;
   text-align: center;
 }
