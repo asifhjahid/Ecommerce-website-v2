@@ -1762,34 +1762,59 @@ li {
   margin-top: 41px;
 }
 .deal_ofthe_week_img{
-  height: 430px;
+  width: 500px;
+  height: 100%;
 }
 .deal_ofthe_week img{
-  width: 300px;
-  height: 100%;
+  width: 100%;
+  /* opacity: .8; */
+  transition: all .3s ease-in-out;
+  
+}
+.deal_ofthe_week img:hover{
+  /* width: 100%; */
+  /* opacity:1; */
 }
 .deal_ofthe_week_content{
+  position: relative;
   height: 100%;
+  width: 100%;
+  
 }
 .section_week_title{
   display: inline-block;
   text-align: center;
 }
+.section_week_title p{
+  font-size: 1.8rem;
+  color: #3a405c;
+}
+.section_week_title .fa{
+  font-size: 1rem;
+  position: relative;
+  bottom: 6px;
+  color: rgb(0, 153, 255);
+}
+.section_week_title .artist{
+  position: absolute;
+  top: 7%;
+  right: 16%;
+  color: rgb(138, 13, 38);
+  font-weight: 600;
+  font-size: 1.8rem;
+}
 .section_week_title h2{
   display: inline-block;
 }
-/* .section_week_title::after{
-  content: '';
-  display: block;
+.BeHappy{
+  margin: 30px 0 12px 0;
+}
+.weWithYou{
   position: absolute;
-  top: calc(100% + 13px);
-  left: 50%;
-  transform: translateX(-50%);
-  width: 60%;
-  height: 5px;
-  background-color: #fe4c50;
-
-} */
+  right: 34%;
+  bottom: 37%;
+}
+ 
 .timer{
   margin-top: 50px;
 }
@@ -1815,20 +1840,103 @@ li {
   color: black;
   font-weight: 500;
 }
-.deal_ofthe_week_button{
-  background-color: #4d4d64; 
-  padding: 12px 20px;
-  border-radius: 10px;
-  
-}
+
 .deal_ofthe_week_button a{
   color: #fff;
+  background-color: #2ecc71;
+  transform: scale(.9);
+   padding: 10px 12px;
   text-align: center;
-  font-size: 2.2rem;
+  font-size: 1.6rem;
+  margin-top: 10px;
+  border-radius:  6px;
+  transition: all .3s ease-in-out;
 }
-.deal_ofthe_week_button:hover{
-  background-color: #2e2e3b; 
+.deal_ofthe_week_button a:hover{
+  background-color: transparent; 
+  font-size: 2rem;
+  transform: scale(1.1);
+  color: var(--secondaryColor);
+  border: 2px solid #2ecc71;
 }
+
+
+@media only screen and (max-width:1100px){
+  .pabuiPakhi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .deal_ofthe_week_img{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 999px){
+  .deal_ofthe_week_content{
+    margin-top: 10px;
+  }
+  .section_week_title .artist{
+    position: absolute;
+    top: 9%;
+    right: 30%;
+  }
+  .weWithYou{
+    position: absolute;
+    right: 40%;
+    bottom: 37%;
+  }
+}
+@media only screen and (max-width: 590px){
+  .section_week_title .artist{
+    position: absolute;
+    top: 6%;
+    right: 10%;
+  }
+  .weWithYou{
+    position: absolute;
+    right: 40%;
+    bottom: 37%;
+  }
+  .timer{
+    margin: 55px 0 0 30px;
+  }
+  .timer li{
+    display: block;
+    margin-bottom: 4px;
+    justify-content: center;
+    align-items: center;
+ }
+
+ }
+ @media only screen and (max-width:560px){
+  .weWithYou{
+    position: absolute;
+    right: 40%;
+    bottom: 52%;
+  }
+ }
+ @media only screen and (max-width:530px){
+  .weWithYou{
+    position: absolute;
+    right: 40%;
+    bottom: 53%;
+  }
+ }
+  @media only screen and (max-width: 420px){
+    .section_week_title .artist{
+      position: absolute;
+      top: 12%;
+      right: 10%;
+    }
+    .weWithYou{
+      position: absolute;
+      right: 33%;
+      bottom: 52%;
+    }
+  
+  }
 
 
 
