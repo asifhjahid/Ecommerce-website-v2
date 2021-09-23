@@ -9,10 +9,10 @@ function scrollFunction() {
     let navItem = document.querySelectorAll(".nav-link");
     for(let i =0; i<navItem.length ; i++){
         let item = navItem[i];
-        item.style.color = '#ffffff'
+        item.style.color = '#000'
     }
     navBar.style.top = '0';
-    navBar.style.backgroundColor = '#27ae60'; 
+    navBar.style.backgroundColor = '#61f59e'; 
   } else {
     document.getElementById("navbar").style.top = "0";
     document.getElementById("navbar").style.backgroundColor = "#fff";

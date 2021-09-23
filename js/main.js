@@ -43,23 +43,15 @@ const hoursE1 = document.querySelector("#hours");
 const minutesE1 = document.querySelector("#minutes");
 const secondsE1 = document.querySelector("#seconds");
 
-const newYears = " 2";
-
-const date = new Date();
-const l = date.getDate()+3;
-console.log(l);
+const startingTime = '1 january 2021';
 
 function countDown(){
-    // const newYearsDate = new Date(l);
-    // console.log(newYearsDate);
+    const getStartingTime = new Date(startingTime);
     const currentDate = new Date();
-    // const lal = currentDate.getDate();
-    // console.log(lal);
     
-    console.log();
-    const totalSeconds = (l - currentDate)/1000;
+    const totalSeconds = (  currentDate - getStartingTime)/1000;
+    
     console.log(totalSeconds);
-    
     const days = Math.floor(totalSeconds/3600/24);
     const hours = Math.floor(totalSeconds/3600)%24;
     const minutes = Math.floor(totalSeconds/60)%60;
@@ -74,8 +66,8 @@ function countDown(){
 }
 
 //initial call
-// countDown();
-// setInterval(countDown,1000);
+countDown();
+setInterval(countDown,1000);
 
 
 
