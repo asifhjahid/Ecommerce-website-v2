@@ -3,7 +3,7 @@
         {
             "id":1,
             "title":"Canvas 1",
-            "image":"../images/canvas/canvas1.jpg",
+            "image":"./images/canvas/canvas1.jpg",
             "price":1500,
             "category":"Canvas"
         },
