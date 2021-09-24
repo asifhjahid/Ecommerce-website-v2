@@ -1001,13 +1001,18 @@ li {
    }
    .section__title{
      display: flex;
-     align-items: center;
      justify-content: center;
-     cursor: pointer;
+     align-items: center;
+     
+   
    }
+   
+ 
    .section__title h1{
      font-size: 1.9rem;
      font-weight: inherit; 
+     text-align: center;
+     color: #fff;
    }
    .section__title .primary__title,
    .section__title:hover span.dot,
@@ -1016,10 +1021,21 @@ li {
     opacity: 1;
    }
    .section__title .primary__title{
-     opacity: 0.6;
-     padding-left: 0.5rem;
-     margin-bottom: -1px;
-     transition: opacity .3s ease-in-out;
+    cursor: pointer;
+    font-size: 2.2rem;
+      
+       border: 2px solid gray;
+       padding: 1rem 2rem;
+   border-radius: 8px;
+     /* opacity: 0.6; */
+     background-color: var(--secondaryColor);
+     text-align: center;
+     transition: all .3s ease-in-out;
+   }
+   .section__title .primary__title:hover{
+      background-color: transparent;
+      color: var(--secondaryColor);
+      transform: scale(1.1);
    }
    .section__titles:not(:last-child){
      margin-right: 1.5rem;
@@ -1475,7 +1491,7 @@ li {
   }
 }
 .section__title .primary__title{
-  margin-bottom:8px ;
+  /* margin-bottom:8px ; */
 }
 .section__title span.dot { 
   margin-top: -8px;
