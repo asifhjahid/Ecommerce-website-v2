@@ -54,7 +54,7 @@ const displayProductItems =items=>{
           </div>
 
           <div class="product__price">
-            <h4>${product.price}</h4>
+            <h4>৳ ${product.price}</h4>
             <a href=""><button type="button" class="product__btn">
               Add to Cart
             </button></a>

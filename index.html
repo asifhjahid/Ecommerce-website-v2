@@ -1,114 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <!-- Swiper Js CDN -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
+    />
 
-
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
-  <!-- Swiper Js CDN -->
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
-
-
-
-  <link
+    <link
       href="https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css"
       rel="stylesheet"
     />
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap" rel="stylesheet" />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
 
-  <!-- <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" /> -->
+    <!-- <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" /> -->
 
- <!-- Glide js -->
- <link
- rel="stylesheet"
- href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
-/>
-<link
- rel="stylesheet"
- href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"
-/>
-  <!-- Carousel -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
-">
-  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Glide js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.css"
+    />
+    <!-- Carousel -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.core.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/css/glide.theme.min.css
+"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-  <!-- Custom StyleSheet -->
-  <link rel="stylesheet" href="./style/style.css" />
+    <!-- Custom StyleSheet -->
+    <link rel="stylesheet" href="./style/index.css" />
 
-  <title>E-commerce website</title>
-</head>
+    <title>E-commerce website</title>
+  </head>
 
-<body>
+  <body>
+    <!-- header -->
 
-<!-- header -->
+    <header class="header" id="header">
+      <!-- Navigation -->
+      <div class="navigation" id="navbar">
+        <div class="nav-center container d-flex">
+          <a href="#" class="logo">
+            <img src="./images/logo/logo.png" alt="" />
+          </a>
 
-<header class="header" id="header">
-  <!-- Navigation -->
-  <div class="navigation" id="navbar">
-    <div class="nav-center container d-flex">
-    <a href="#" class="logo">
-      <img src="./images/logo/logo.png" alt="">
-  </a>
-
-      <ul class="nav-list d-flex">
-        <li class="nav-item">
-          <a href="#" class="nav-link">Home</a>
-        </li>
-        <li class="nav-item">
-          <a href="product.html" class="nav-link">Shop</a>
-        </li>
-        <li class="nav-item">
+          <ul class="nav-list d-flex">
+            <li class="nav-item">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="/Ecommerce-website-v2/products.html" class="nav-link"
+                >Shop</a
+              >
+            </li>
+            <!-- <li class="nav-item">
         <a href="#terms" class="nav-link">Terms</a>
-        </li>
-        <li class="nav-item">
-          <a href="#about" class="nav-link">About</a>
-        </li>
-        <li class="nav-item">
-          <a href="#contact" class="nav-link">Contact</a>
-        </li>
-      </ul>
-      
+        </li> -->
+            <li class="nav-item">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#contact" class="nav-link">Contact</a>
+            </li>
+          </ul>
 
-     <!-- Nav Icons -->
+          <!-- Nav Icons -->
 
-      <div class="icons d-flex">
-        <a href="login.html" class="icon">
-          <i class="bx bx-user"></i>
-        </a>
-        <div class="icon">
-          <i class="bx bx-search"></i>
+          <div class="icons d-flex">
+            <a href="login.html" class="icon">
+              <i class="bx bx-user"></i>
+            </a>
+            <div class="icon">
+              <i class="bx bx-search"></i>
+            </div>
+            <div class="icon">
+              <i class="bx bx-heart"></i>
+              <span class="d-flex">0</span>
+            </div>
+            <a href="cart.html" class="icon">
+              <i class="bx bx-cart"></i>
+              <span class="d-flex">0</span>
+            </a>
+          </div>
+
+          <div class="hamburger">
+            <i class="bx bx-menu-alt-left"></i>
+          </div>
         </div>
-        <div class="icon">
-          <i class="bx bx-heart"></i>
-          <span class="d-flex">0</span>
-        </div>
-        <a href="cart.html" class="icon">
-          <i class="bx bx-cart"></i>
-          <span class="d-flex">0</span>
-        </a>
-        
       </div>
 
-      <div class="hamburger">
-        <i class="bx bx-menu-alt-left"></i>
-      </div>
-    </div>
-  </div>
+      <!-- Hero Section -->
 
-
-
-<!-- Hero Section -->
-
-       <div class="hero">
+      <div class="hero">
         <div class="glide" id="glide_1">
           <div class="glide__track" data-glide-el="track">
             <ul class="glide__slides">
@@ -117,11 +129,18 @@
                   <div class="left">
                     <span class="">New Inspiration 2021</span>
                     <h1 class="">NEW COLLECTION!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ratione!</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Beatae, ratione!
+                    </p>
                     <a href="#" class="hero-btn">Buy Now</a>
                   </div>
                   <div class="right">
-                      <img class="img1" src="./images/banner/banner10.png" alt="">
+                    <img
+                      class="img1"
+                      src="./images/banner/banner10.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </li>
@@ -130,11 +149,18 @@
                   <div class="left">
                     <span>New Inspiration 2021</span>
                     <h1>THE PERFECT MATCH!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ratione!</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Beatae, ratione!
+                    </p>
                     <a href="#" class="hero-btn">SHOP NOW</a>
                   </div>
                   <div class="right">
-                    <img class="img2" src="./images/banner/fishBanner.png" alt="">
+                    <img
+                      class="img2"
+                      src="./images/banner/fishBanner.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </li>
@@ -143,11 +169,18 @@
                   <div class="left">
                     <span class="">New Inspiration 2021</span>
                     <h1 class="">NEW COLLECTION!</h1>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae, ratione!</p>
+                    <p>
+                      Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                      Beatae, ratione!
+                    </p>
                     <a href="#" class="hero-btn">SHOP NOW</a>
                   </div>
                   <div class="right">
-                      <img class="img3" src="./images/banner/banner8.png" alt="">
+                    <img
+                      class="img3"
+                      src="./images/banner/banner8.png"
+                      alt=""
+                    />
                   </div>
                 </div>
               </li>
@@ -155,982 +188,1149 @@
           </div>
         </div>
       </div>
-      </header>
+    </header>
 
+    <!-- Main -->
 
+    <!-- Collection -->
 
+    <main id="main">
+      <section class="section collection" id="collection">
+        <div class="container">
+          <div class="collection__container">
+            <div class="collection__box">
+              <div class="img__container">
+                <img
+                  src="./images/banner/fishBanner.png"
+                  alt=""
+                  class="collection_01"
+                />
+              </div>
+              <div class="collection__content">
+                <div class="collection__data">
+                  <span>Lorem, ipsum dolor.</span>
+                  <h1>Glass Jar</h1>
+                  <a href="#">Buy Now</a>
+                </div>
+              </div>
+            </div>
 
-<!-- Main -->
-
-<!-- Collection -->
-
-<main id="main">
-  <section class="section collection" id="collection">
-    <div class="container">
-      <div class="collection__container">
-        <div class="collection__box">
-          <div class="img__container">
-            <img src="./images/banner/fishBanner.png" alt="" class="collection_01">
-          </div>
-          <div class="collection__content">
-            <div class="collection__data">
-              <span>Lorem, ipsum dolor.</span>
-              <h1>Glass Jar</h1>
-              <a href="#">Buy Now</a>
+            <div class="collection__box">
+              <div class="img__container">
+                <img
+                  src="./images/banner/banner10.png"
+                  alt=""
+                  class="collection_02"
+                />
+              </div>
+              <div class="collection__content">
+                <div class="collection__data">
+                  <span>Lorem, ipsum dolor.</span>
+                  <h1>Canvas</h1>
+                  <a href="#">Buy Now</a>
+                </div>
+              </div>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="collection__box">
-          <div class="img__container">
-            <img src="./images/banner/banner10.png" alt="" class="collection_02">
-          </div>
-          <div class="collection__content">
-            <div class="collection__data">
-              <span>Lorem, ipsum dolor.</span>
-              <h1>Canvas</h1>
-              <a href="#">Buy Now</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
+      <!-- Latest Products -->
 
-
-
-  <!-- Latest Products -->
-
-  <div class="container">
-    <section class="section latest__products" id="latest">
-      <div class="title__container">
-        <div class="section__title active" data-id='Latest Products'>
-          <!-- <span class="dot"></span> -->
-          <h1 class="primary__title">Latest Products</h1>
-        </div>
-      </div>
-  
-  
-  
-  
       <div class="container">
-        <div class="glide" id="glide_2">
-          <div class="glide__track" data-glide-el="track">
-            <ul class="glide__slides latest-center">
-              <li class="glide__slide productView">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas2.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas3.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas8.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas9.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas10.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas11.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas12.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas13.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="product">
-                  <div class="product__header">
-                    <img src="./images/canvas/canvas15.jpg" alt="">
-                  </div>
-                  <div class="product__footer">
-                    <h3>Apple iPhone 11</h3>
-                    <div class="rating">
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                      <svg>
-                        <use xlink:href="./images/nav.svg#icon-star-full"></use>
-                      </svg>
-                    </div>
-  
-                    <div class="product__price">
-                      <h4>$750</h4>
-                      <a href=""><button type="button" class="product__btn">
-                        Add to Cart
-                      </button></a>
-                    </div>
-  
-                    <ul>
-                   
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-eye"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-heart-o"></use>
-                          </svg>
-                        </a>
-                        <a href="#">
-                          <svg>
-                            <use xlink:href="./images/nav.svg#icon-loop2"></use>
-                          </svg>
-                        </a>
-                      
-                    </ul>
-                  </div>
-                </div>
-              </li>
-            </ul>
+        <section class="section latest__products" id="latest">
+          <div class="title__container">
+            <div class="section__title active" data-id="Latest Products">
+              <!-- <span class="dot"></span> -->
+              <h1 class="primary__title">Latest Products</h1>
+            </div>
           </div>
-  
-  
-          <div class="glide__arrows" data-glide-el="controls">
-            <button class="glide__arrow glide__arrow--left" data-glide-dir="<">
-              <svg>
-                <use xlink:href="./images/nav.svg#icon-arrow-left2"></use>
-              </svg>
-            </button>
-            <button class="glide__arrow glide__arrow--right" data-glide-dir=">">
-              <svg>
-                <use xlink:href="./images/nav.svg#icon-arrow-right2"></use>
-              </svg>
-            </button>
+
+          <div class="container">
+            <div class="glide" id="glide_2">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides latest-center">
+                  <li class="glide__slide productView">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas2.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas3.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas8.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas9.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas10.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas11.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas12.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas13.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                  <li class="glide__slide">
+                    <div class="product">
+                      <div class="product__header">
+                        <img src="./images/canvas/canvas15.jpg" alt="" />
+                      </div>
+                      <div class="product__footer">
+                        <h3>Apple iPhone 11</h3>
+                        <div class="rating">
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                          <svg>
+                            <use
+                              xlink:href="./images/nav.svg#icon-star-full"
+                            ></use>
+                          </svg>
+                        </div>
+
+                        <div class="product__price">
+                          <h4>৳ 750</h4>
+                          <a href=""
+                            ><button type="button" class="product__btn">
+                              Add to Cart
+                            </button></a
+                          >
+                        </div>
+
+                        <ul>
+                          <a href="#">
+                            <svg>
+                              <use xlink:href="./images/nav.svg#icon-eye"></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-heart-o"
+                              ></use>
+                            </svg>
+                          </a>
+                          <a href="#">
+                            <svg>
+                              <use
+                                xlink:href="./images/nav.svg#icon-loop2"
+                              ></use>
+                            </svg>
+                          </a>
+                        </ul>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="glide__arrows" data-glide-el="controls">
+                <button
+                  class="glide__arrow glide__arrow--left"
+                  data-glide-dir="<"
+                >
+                  <svg>
+                    <use xlink:href="./images/nav.svg#icon-arrow-left2"></use>
+                  </svg>
+                </button>
+                <button
+                  class="glide__arrow glide__arrow--right"
+                  data-glide-dir=">"
+                >
+                  <svg>
+                    <use xlink:href="./images/nav.svg#icon-arrow-right2"></use>
+                  </svg>
+                </button>
+              </div>
+            </div>
           </div>
-  
-        </div>
+        </section>
+
+        <!-- Category Section -->
+
+        <section class="category__section section" id="category">
+          <div class="tab__list">
+            <div class="title__container tabs">
+              <div class="section__titles category__titles">
+                <div
+                  class="section__title filter-btn active"
+                  data-id="All Products"
+                >
+                  <!-- <span class="dot"></span> -->
+                  <h1 class="primary__title">All Products</h1>
+                </div>
+              </div>
+              <div class="section__titles category__titles">
+                <div class="section__title filter__btn" data-id="Canvas">
+                  <!-- <span class="dot"></span> -->
+                  <h1 class="primary__title">Canvas</h1>
+                </div>
+              </div>
+              <div class="section__titles category__titles">
+                <div class="section__title filter__btn" data-id="Banner">
+                  <!-- <span class="dot"></span> -->
+                  <h1 class="primary__title">Banner</h1>
+                </div>
+              </div>
+              <div class="section__titles category__titles">
+                <div class="section__title filter__btn" data-id="Fish Jar">
+                  <!-- <span class="dot"></span> -->
+                  <h1 class="primary__title">Fish Jar</h1>
+                </div>
+              </div>
+              <div class="section__titles category__titles">
+                <div class="section__title filter__btn" data-id="Glass Jar">
+                  <!-- <span class="dot"></span> -->
+                  <h1 class="primary__title">Glass Jar</h1>
+                </div>
+              </div>
+            </div>
+            <div class="category__container">
+              <div class="category__center"></div>
+            </div>
+          </div>
+        </section>
       </div>
-    </section>
+    </main>
 
+    <footer id="footer"></footer>
 
+    
 
-
-    <!-- Category Section -->
-
-    <section class="category__section section" id="category">
-      <div class="tab__list">
-        <div class="title__container tabs">
-          <div class="section__titles category__titles">
-            <div class="section__title filter-btn active" data-id="All Products">
-              <!-- <span class="dot"></span> -->
-              <h1 class="primary__title">All Products</h1>
-            </div>
-          </div>
-          <div class="section__titles category__titles">
-            <div class="section__title filter__btn" data-id="Canvas">
-              <!-- <span class="dot"></span> -->
-              <h1 class="primary__title">Canvas</h1>
-            </div>
-          </div>
-          <div class="section__titles category__titles">
-            <div class="section__title filter__btn" data-id="Banner">
-              <!-- <span class="dot"></span> -->
-              <h1 class="primary__title">Banner</h1>
-            </div>
-          </div>
-          <div class="section__titles category__titles">
-            <div class="section__title filter__btn" data-id="Fish Jar">
-              <!-- <span class="dot"></span> -->
-              <h1 class="primary__title">Fish Jar</h1>
-            </div>
-          </div>
-          <div class="section__titles category__titles">
-            <div class="section__title filter__btn" data-id="Glass Jar">
-              <!-- <span class="dot"></span> -->
-              <h1 class="primary__title">Glass Jar</h1>
-            </div>
-          </div>
-        </div>
-        <div class="category__container">
-          <div class="category__center">
-
-          </div>
-        </div>
-      </div>
-    </section>
-
-  </div>
-  
-</main>
-
-
-
-
-<footer id="footer">
-
-</footer>
-
-
-
-
-<!-- PopUp -->
-
-<div class="popup hide__popup">
-  <div class="popup__content">
-    <div class="popup__close">
+    <!-- Go To -->
+    <a href="#header" class="goto-top scroll-link">
       <svg>
-        <use xlink:href="./images/nav.svg#icon-cross"></use>
+        <use xlink:href="./images/nav.svg#icon-arrow-up"></use>
       </svg>
-    </div>
+    </a>
 
-    <div class="popup__left">
-      <div class="popup__img__container">
-        <img src="./images/logo/logo.jpg" alt="" class="popup__img">
-      </div>
-    </div>
+    <!-- Deal of the week -->
 
-    <div class="popup__right">
-      <div class="right__content">
-        <h1>Get Discount <span>30%</span>Off</h1>
-        <p>Sing up to our newsletter and save 30% for you next purchase. No spam, we promise!</p>
-        <form action="#">
-          <input type="email" placeholder="Enter your email..." class="popup__form">
-          <a href="#">Subscribe</a>
-        </form>
-      </div>
-    </div>
-  </div>
-</div>
+    <div class="deal_ofthe_week">
+      <div class="container">
+        <div class="row align-items-center pabuiPakhi-section">
+          <div class="col-lg-6">
+            <div class="deal_ofthe_week_img">
+              <img src="./images/banner/footer.jpg" alt="" />
+            </div>
+          </div>
 
-
-
-
-
-<!-- Go To -->
-<a href="#header" class="goto-top scroll-link">
-  <svg>
-    <use xlink:href="./images/nav.svg#icon-arrow-up"></use>
-  </svg>
-</a>
-
-
-
-<!-- Deal of the week -->
-
-<div class="deal_ofthe_week">
-  <div class="container">
-    <div class="row align-items-center pabuiPakhi-section">
-      <div class="col-lg-6">
-        <div class="deal_ofthe_week_img">
-          <img src="./images/banner/footer.jpg" alt="">
+          <div class="col-lg-6 text-right deal_ofthe_week_col">
+            <div
+              class="
+                deal_ofthe_week_content
+                d-flex
+                flex-column
+                align-items-center
+                float-right
+              "
+            >
+              <div class="section_week_title">
+                <p>
+                  <i class="fa fa-quote-left"></i> Painting is just another way
+                  of keeping a diary <i class="fa fa-quote-right"></i>
+                  <span class="artist">- Pablo Picasso</span>
+                </p>
+              </div>
+              <div class="BeHappy">
+                <h1>Buy happy, be happy &#128525;</h1>
+              </div>
+              <div class="red_button deal_ofthe_week_button">
+                <a href="#">Buy now</a>
+              </div>
+              <div>
+                <h2 class="weWithYou">We are with you</h2>
+              </div>
+              <ul class="timer">
+                <li
+                  class="
+                    d-inline-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <div class="timer_num" id="days">03</div>
+                  <div class="timer_unit">Days</div>
+                </li>
+                <li
+                  class="
+                    d-inline-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <div class="timer_num" id="hours">10</div>
+                  <div class="timer_unit">Hours</div>
+                </li>
+                <li
+                  class="
+                    d-inline-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <div class="timer_num" id="minutes">20</div>
+                  <div class="timer_unit">Minutes</div>
+                </li>
+                <li
+                  class="
+                    d-inline-flex
+                    flex-column
+                    justify-content-center
+                    align-items-center
+                  "
+                >
+                  <div class="timer_num" id="seconds">30</div>
+                  <div class="timer_unit">Seconds</div>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
+    </div>
 
-      <div class="col-lg-6 text-right deal_ofthe_week_col">
-        <div class="deal_ofthe_week_content d-flex flex-column align-items-center float-right">
-          <div class="section_week_title">
-            <p><i class="fa fa-quote-left"></i> Painting is just another way of keeping a diary <i class="fa fa-quote-right"></i>
-               <span class="artist">- Pablo Picasso</span></p>
+
+
+    <!-- Customer Review -->
+    <div class="container customer">
+      <h1>Customer feedback</h1>
+      <div class="swiper swiper-container">
+        <div class="swiper-wrapper wrap">
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="description">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in!
+                  Culpa aperiam tenetur eligendi, vitae, asperiores, laborum
+                  nesciunt ullam libero sunt eveniet debitis.
+                </p>
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="profile">
+                <img src="./images/customer_review/customer4.jpg" />
+                <h4>Asif Hasan</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
           </div>
-          <div class="BeHappy">
-            <h1>Buy happy, be happy &#128525;</h1>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="description">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in!
+                  Culpa aperiam tenetur eligendi, vitae, asperiores, laborum
+                  nesciunt ullam libero sunt eveniet debitis.
+                </p>
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="profile">
+                <img src="./images/customer_review/customer1.jpg" />
+                <h4>Asif Hasan</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
           </div>
-          <div class="red_button deal_ofthe_week_button">
-            <a href="#">Buy now</a>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="description">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in!
+                  Culpa aperiam tenetur eligendi, vitae, asperiores, laborum
+                  nesciunt ullam libero sunt eveniet debitis.
+                </p>
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="profile">
+                <img src="./images/customer_review/customer3.jpg" />
+                <h4>Asif Hasan</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
           </div>
-          <div>
-            <h2 class="weWithYou">We are with you</h2>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="description">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in!
+                  Culpa aperiam tenetur eligendi, vitae, asperiores, laborum
+                  nesciunt ullam libero sunt eveniet debitis.
+                </p>
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="profile">
+                <img src="./images/customer_review/customer5.jpg" />
+                <h4>Asif Hasan</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
           </div>
-          <ul class="timer">
-            <li class="d-inline-flex flex-column justify-content-center align-items-center">
-              <div class="timer_num" id="days">03</div>
-              <div class="timer_unit">Days</div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="description">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in!
+                  Culpa aperiam tenetur eligendi, vitae, asperiores, laborum
+                  nesciunt ullam libero sunt eveniet debitis.
+                </p>
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="profile">
+                <img src="./images/customer_review/customer6.jpg" />
+                <h4>Asif Hasan</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <div class="card">
+              <div class="description">
+                <i class="fa fa-quote-left"></i>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in!
+                  Culpa aperiam tenetur eligendi, vitae, asperiores, laborum
+                  nesciunt ullam libero sunt eveniet debitis.
+                </p>
+                <i class="fa fa-quote-right"></i>
+              </div>
+              <div class="profile">
+                <img src="./images/customer_review/customer2.jpg" />
+                <h4>Asif Hasan</h4>
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin"></i></a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+    </div>
+
+    <!-- Contact Section -->
+
+    <div id="contact" class="container">
+      <div class="contact">
+        <div class="content">
+          <h1>Contact Us</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut eos
+            labore reprehenderit eligendi eum tempore explicabo provident ipsa
+            eveniet quasi.
+          </p>
+        </div>
+        <div class="container contactDetails">
+          <div class="contactInfo">
+            <div class="box">
+              <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
+              <div class="text">
+                <h2>Address</h2>
+                <p>
+                  265, Mohammadpur,
+                  <span class="address">Dhaka, Bangladesh</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div class="text">
+                <h2>Phone</h2>
+                <p>+88 01616882641</p>
+              </div>
+            </div>
+
+            <div class="box">
+              <div class="icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div class="text">
+                <h2>Email</h2>
+                <p>babuipakhi@gmail.com</p>
+              </div>
+            </div>
+          </div>
+          <div class="contactForm">
+            <form action="" class="formItem">
+              <label for="fullName">Full Name</label><br />
+              <input
+                type="text"
+                name="fullName"
+                placeholder="Full Name"
+                required
+              /><br />
+              <label for="email">Email</label><br />
+              <input
+                type="text"
+                name="email"
+                placeholder="Email"
+                required
+              /><br />
+              <label for="fullName">Type Your Message</label><br />
+              <textarea
+                type="textarea"
+                placeholder="Type Your Message..."
+                required
+              ></textarea
+              ><br />
+              <a href="#" type="submit" class="submit">Send</a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer" id="about">
+      <div class="container footer-container">
+        <div class="about-footer-section">
+          <h2>About Us</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et,
+            necessitatibus quasi officia obcaecati alias illo dignissimos! Vel
+            corrupti placeat veritatis.
+          </p>
+        </div>
+
+        <div class="get-help">
+          <h2>Get Help</h2>
+          <ul>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Shipping</a></li>
+            <li><a href="#">Returns</a></li>
+            <li><a href="#">Order Status</a></li>
+          </ul>
+        </div>
+
+        <div class="important-link">
+          <h2>Important Links</h2>
+          <ul>
+            <li><a href="#">Shop</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="#">Terms & Conditions</a></li>
+          </ul>
+        </div>
+
+        <div class="follow-us">
+          <h2>Follow Us</h2>
+          <ul class="items">
+            <li>
+              <a href="#" class="facebook"><i class="fab fa-facebook"></i></a>
             </li>
-            <li class="d-inline-flex flex-column justify-content-center align-items-center">
-              <div class="timer_num" id="hours">10</div>
-              <div class="timer_unit">Hours</div>
+            <li>
+              <a href="#" class="twitter"><i class="fab fa-twitter"></i></a>
             </li>
-            <li class="d-inline-flex flex-column justify-content-center align-items-center">
-              <div class="timer_num" id="minutes">20</div>
-              <div class="timer_unit">Minutes</div>
+            <li>
+              <a href="#" class="instagram"><i class="fab fa-instagram"></i></a>
             </li>
-            <li class="d-inline-flex flex-column justify-content-center align-items-center">
-              <div class="timer_num" id="seconds">30</div>
-              <div class="timer_unit">Seconds</div>
+
+            <li>
+              <a href="#" class="linkedin"><i class="fab fa-linkedin"></i></a>
             </li>
           </ul>
-
-         
         </div>
       </div>
     </div>
-  </div>
-</div>
 
+    <!-- LastFooter -->
 
-
-
-
-
-<!-- Customer Review -->
-<div class="container customer">
-  <h1>Customer feedback</h1>
-  <div class="swiper swiper-container">
-    <div class="swiper-wrapper wrap">
-      <div class="swiper-slide">
-        <div class="card">
-          <div class="description">
-            <i class="fa fa-quote-left"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in! Culpa aperiam tenetur eligendi, vitae, asperiores, laborum nesciunt ullam libero sunt eveniet debitis.</p>
-            <i class="fa fa-quote-right"></i>
-          </div>
-          <div class="profile">
-            <img src="./images/customer_review/customer4.jpg" />
-            <h4>Asif Hasan</h4>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-  
-          </div>
-        </div>
-        
-      </div>
-      <div class="swiper-slide">
-        <div class="card">
-          <div class="description">
-            <i class="fa fa-quote-left"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in! Culpa aperiam tenetur eligendi, vitae, asperiores, laborum nesciunt ullam libero sunt eveniet debitis.</p>
-            <i class="fa fa-quote-right"></i>
-          </div>
-          <div class="profile">
-            <img src="./images/customer_review/customer1.jpg" />
-            <h4>Asif Hasan</h4>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-       
-      </div>
-      <div class="swiper-slide">
-        <div class="card">
-          <div class="description">
-            <i class="fa fa-quote-left"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in! Culpa aperiam tenetur eligendi, vitae, asperiores, laborum nesciunt ullam libero sunt eveniet debitis.</p>
-            <i class="fa fa-quote-right"></i>
-          </div>
-          <div class="profile">
-            <img src="./images/customer_review/customer3.jpg" />
-            <h4>Asif Hasan</h4>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-        
-      </div>
-      <div class="swiper-slide">
-        <div class="card">
-          <div class="description">
-            <i class="fa fa-quote-left"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in! Culpa aperiam tenetur eligendi, vitae, asperiores, laborum nesciunt ullam libero sunt eveniet debitis.</p>
-            <i class="fa fa-quote-right"></i>
-          </div>
-          <div class="profile">
-            <img src="./images/customer_review/customer5.jpg" />
-            <h4>Asif Hasan</h4>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-          </div>
-        </div>
-       
-      </div>
-      <div class="swiper-slide">
-        <div class="card">
-          <div class="description">
-            <i class="fa fa-quote-left"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in! Culpa aperiam tenetur eligendi, vitae, asperiores, laborum nesciunt ullam libero sunt eveniet debitis.</p>
-            <i class="fa fa-quote-right"></i>
-          </div>
-          <div class="profile">
-            <img src="./images/customer_review/customer6.jpg" />
-            <h4>Asif Hasan</h4>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-  
-          </div>
-        </div>
-        
-      </div>
-      <div class="swiper-slide">
-        <div class="card">
-          <div class="description">
-            <i class="fa fa-quote-left"></i>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis, error! Aperiam dolorum aliquid modi, sunt dolorem in! Culpa aperiam tenetur eligendi, vitae, asperiores, laborum nesciunt ullam libero sunt eveniet debitis.</p>
-            <i class="fa fa-quote-right"></i>
-          </div>
-          <div class="profile">
-            <img src="./images/customer_review/customer2.jpg" />
-            <h4>Asif Hasan</h4>
-            <a href="#"><i class="fab fa-facebook"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-linkedin"></i></a>
-  
-          </div>
-        </div>
-        
+    <div class="footerLast">
+      <div class="container">
+        <p>
+          All Rights Reserved By Babui Pakhi A Dreamer
+          <span>&copy;</span> 2021-2022
+        </p>
       </div>
     </div>
-    <div class="swiper-pagination"></div>
-  </div>
-  </div>
 
 
-
-
-  <!-- Contact Section -->
-
-  <div id="contact" class="container">
-    <div class="contact" >
-      <div class="content">
-        <h1>Contact Us</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut eos labore reprehenderit eligendi eum tempore explicabo provident ipsa eveniet quasi.</p>
-      </div>
-      <div class="container contactDetails">
-        <div class="contactInfo">
-          <div class="box">
-            <div class="icon"><i class="fas fa-map-marker-alt"></i></div>
-            <div class="text">
-              <h2>Address</h2>
-              <p>265, Mohammadpur, <span class="address">Dhaka, Bangladesh</span> </p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-phone"></i>
-            </div>
-            <div class="text">
-              <h2>Phone</h2>
-              <p>+88 01616882641</p>
-            </div>
-          </div>
-
-          <div class="box">
-            <div class="icon">
-              <i class="fas fa-envelope"></i>
-            </div>
-            <div class="text">
-              <h2>Email</h2>
-              <p>babuipakhi@gmail.com</p>
-            </div>
-          </div>
-        </div>
-        <div class="contactForm">
-          <form action="" class="formItem">
-            <label for="fullName">Full Name</label><br>
-            <input type="text" name="fullName" placeholder="Full Name" required><br>
-            <label for="email">Email</label><br>
-            <input type="text" name="email" placeholder="Email" required><br>
-            <label for="fullName">Type Your Message</label><br>
-            <textarea type="textarea"  placeholder="Type Your Message..." required></textarea><br>
-           <a href="#" type="submit" class="submit">Send</a>
-            
-          </form>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-
-
-  <!-- Footer Section -->
-  <div class="footer">
-    <div class="container footer-container">
-      <div class="about-footer-section">
-          <h2>About Us</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et, necessitatibus quasi officia obcaecati alias illo dignissimos! Vel corrupti placeat veritatis.</p>
-      </div>
-
-      <div class="get-help">
-        <h2>Get Help</h2>
-        <ul>
-          <li><a href="#">FAQ</a></li>
-          <li><a href="#">Shipping</a></li>
-          <li><a href="#">Returns</a></li>
-          <li><a href="#">Order Status</a></li>
-        </ul>
-      </div>
-
-      <div class="important-link">
-        <h2>Important Links</h2>
-        <ul>
-          <li><a href="#">Shop</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a></li>
-          <li><a href="#">Terms & Conditions</a></li>
-        </ul>
-      </div>
-
-      <div class="follow-us">
-        <h2>Follow Us</h2>
-        <ul class="items">
-          <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
-          <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-          <li><a href="#"><i class="fab fa-instagram"></i></a></li>
-          
-          <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
-        </ul>
-      </div>
-    </div>
-</div>
-
-
-
-
-<!-- LastFooter -->
-
-<div class="footerLast">
-  <div class="container">
-    <p>All Rights Reserved By Babui Pakhi A Dreamer <span>&copy;</span> 2021-2022</p>
-  </div>
-</div>
 
 
     <!-- Glide Carousel Script -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
-  <!-- Animate On Scroll -->
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+    <!-- Animate On Scroll -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-  <!-- Swiper Js -->
-  <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-  <!-- Custom JavaScript -->
-  <script src="./js/script.js"></script>
-  <script src="./js/product.js"></script>
-  <script src="./js/slider.js"></script>
-  <script src="./js/main.js"></script>
-
-</body>
-
+    <!-- Swiper Js -->
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="./js/script.js"></script>
+    <script src="./js/product.js"></script>
+    <script src="./js/slider.js"></script>
+    <script src="./js/main.js"></script>
+  </body>
 </html>
